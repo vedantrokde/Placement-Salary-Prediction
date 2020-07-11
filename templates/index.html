@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <title>Placement Form</title>
+        <link href="{% static 'style.css' %}" rel="stylesheet">
+    </head>
+    <body>
+        <div class="form">
+            <div class="heading">
+                <h2 style="text-align: center;">PLACEMENT PREDICTION FORM</h2>
+            </div>
+            <form method="post" action="">
+                {% csrf_token %}
+                <table cellspacing="10px" cellpadding="15px">
+                <tr>
+                        <td>
+                            <div class="name">Name</div>
+                        </td>
+                        <td>
+                            <div class="value">
+                                <input class="namet" type="text" name="name" required>
+                            </div>
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                            <div class="gender">Gender</div>
+                        </td>
+                        <td>
+                            <div class="radio-btn">
+                                <label class="container">
+                                    <input type="radio" name="gender" value="male" checked>Male
+                                    <span class="checkmark"></span>
+                                </label>
+                                <br>
+                                <label class="container">
+                                    <input type="radio" name="gender" value="female">Female
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                            <div class="seced">Secondary Education %</div>
+                        </td>
+                        <td>
+                            <div class="p">
+                                <input type="number" class="per" name="secedper" min="0" max="100" step="1" required>
+                            </div>
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                            <div class="hsc">HSC %</div>
+                        </td>
+                        <td>
+                            <div class="per1">
+                                <input type="number" class="per" name="hscper" min="0" max="100" step="1" required>
+                            </div>
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                            <div class="hscspec">HSC Specialisation</div>
+                        </td>
+                        <td>
+                            <div class="radio-btn1">
+                                <label class="container">
+                                    <input type="radio" name="hscspec" value="Science" checked>Science
+                                    <span class="checkmark"></span>
+                                </label>
+                                <br>
+                                <label class="container">
+                                    <input type="radio" name="hscspec" value="Commerce">Commerce
+                                    <span class="checkmark"></span>
+                                </label>
+                                <br>
+                                <label class="container">
+                                    <input type="radio" name="hscspec" value="Arts">Arts
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                            <div class="degree">Degree %</div>
+                        </td>
+                        <td>
+                            <div class="per2">
+                                <input type="number" class="per" name="degreeper" min="0" max="100" step="1" required>
+                            </div>
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                            <div class="tod">Type of Degree</div>
+                        </td>
+                        <td>
+                            <div class="radio-btn2">
+                                <label class="container">
+                                    <input type="radio" name="typeofdeg" value="Comm&Mgmt" checked>Commerce and Management
+                                    <span class="checkmark"></span>
+                                </label>
+                                <br>
+                                <label class="container">
+                                    <input type="radio" name="typeofdeg" value="Sci&Tech">Science and Technology
+                                    <span class="checkmark"></span>
+                                </label>
+                                <br>
+                                <label class="container">
+                                    <input type="radio" name="typeofdeg" value="Others">Others
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                            <div class="we">Work Experience</div>
+                        </td>
+                        <td>
+                            <div class="radio-btn3">
+                                <label class="container">
+                                    <input type="radio" name="workexp" value="yes" checked>Yes
+                                    <span class="checkmark"></span>
+                                </label>
+                                <br>
+                                <label class="container">
+                                    <input type="radio" name="workexp" value="no">No
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="weper">Employability Test %</div>
+                    </td>
+                    <td>
+                        <div class="per3">
+                            <input type="number" class="per" name="weper" min="0" max="100" step="1" required>
+                        </div>
+                    </td>
+            </tr>
+            </table>
+        <br>
+        <div>
+            <button class="submitbtn" type="submit">Submit</button>
+        </div>
+        <br>
+        <br>
+        <br>
+    </form> 
+        </div>
+    </body>
+</html>
