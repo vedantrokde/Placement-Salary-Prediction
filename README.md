@@ -3,7 +3,15 @@
 
 `Django` Web-App for Campus Placement Salary Prediction
 
-## How to run this project
+## Building models for prediction
+
+1. **Download [Campus Recruitment Dataset](https://www.kaggle.com/benroshan/factors-affecting-campus-placement) in same directory**
+
+2. **Run [save_model.py](https://github.com/vedantrokde/Placement-Salary-Prediction/save_model.py) :** `python save_model.py`
+
+3. **Save pickel files created in */Placement-Salary-Prediction/myapp/models/***
+
+## To run this project
 
 1. **Clone the project**
 
@@ -20,20 +28,20 @@ source ./env/Scripts/activate
 
 3.  **Make sure you are in *Placement-Salary-Prediction* folder**
 
-    1. Install all dependencies
+    *<ins>Install all dependencies</ins>*
 
     ```sh
     pip install -r requirements.txt
     ```
 
-    2. Run Migrations
+    *<ins>Run Migrations</ins>*
 
     ```sh
     python manage.py makemigrations
     python manage.py migrate
     ```
 
-    3. Run Server
+    *<ins>Run Server</ins>*
 
     ```sh
     python manage.py runserver 
