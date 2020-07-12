@@ -6,16 +6,16 @@ Django Web-App for Campus Placement Salary Prediction
 
 1. **Clone the project**
 
-```sh
-git clone https://github.com/vedantrokde/Placement-Salary-Prediction.git
-```
+   ```sh
+   git clone https://github.com/vedantrokde/Placement-Salary-Prediction.git
+   ```
 
 2.  **Create a virtual-env using venv**
 
-```sh
-python -m venv env
-source ./env/Scripts/activate
-```
+   ```sh
+   python -m venv env
+   source ./env/Scripts/activate
+   ```
 
 3.  **Make sure you are in *Placement-Salary-Prediction* folder**
 
@@ -42,6 +42,8 @@ And you are good to go!!!
 
 In your web browser enter the address : http://localhost:8000 or http://127.0.0.1:8000/ to view website locally.
 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/vedantrokde/Placement-Salary-Prediction.git)
+
 ## Building models for prediction
 
 1. **Download [Campus Recruitment Dataset](https://www.kaggle.com/benroshan/factors-affecting-campus-placement) in same directory**
@@ -50,5 +52,4 @@ In your web browser enter the address : http://localhost:8000 or http://127.0.0.
 
 3. **Save created pickel models in ***/Placement-Salary-Prediction/myapp/models/*.
 
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/vedantrokde/Placement-Salary-Prediction.git)
+**Refer to [scikit-learn](https://scikit-learn.org/stable/modules/classes.html) for any modification required!**
