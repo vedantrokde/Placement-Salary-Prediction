@@ -1,15 +1,8 @@
 # Placement-Salary-Prediction
+
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/vedantrokde/Placement-Salary-Prediction.git)
 
-`Django` Web-App for Campus Placement Salary Prediction
-
-## Building models for prediction
-
-1. **Download [Campus Recruitment Dataset](https://www.kaggle.com/benroshan/factors-affecting-campus-placement) in same directory**
-
-2. **Run [save_model.py](https://github.com/vedantrokde/Placement-Salary-Prediction/save_model.py) :** `python save_model.py`
-
-3. **Save created pickel models in */Placement-Salary-Prediction/myapp/models/***
+Django Web-App for Campus Placement Salary Prediction
 
 ## To run this project
 
@@ -48,4 +41,14 @@ source ./env/Scripts/activate
     ```
 
 And you are good to go!!!
-In your web browser enter the address : http://localhost:8000 or http://127.0.0.1:8000/
+
+In your web browser enter the address : http://localhost:8000 or http://127.0.0.1:8000/ to view website locally.
+
+## Building models for prediction
+
+1. **Download [Campus Recruitment Dataset](https://www.kaggle.com/benroshan/factors-affecting-campus-placement) in same directory**
+
+2. **Run [save_model](https://github.com/vedantrokde/Placement-Salary-Prediction/save_model.py) :** `python save_model.py`
+
+3. **Save created pickel models in ***/Placement-Salary-Prediction/myapp/models/*.
+
