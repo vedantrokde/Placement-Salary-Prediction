@@ -10,12 +10,12 @@ Django Web-App for Campus Placement Salary Prediction
    git clone https://github.com/vedantrokde/Placement-Salary-Prediction.git
    ```
 
-2.  **Create a virtual-env using venv**
+2.  **Create a virtual environment using venv**
 
-   ```sh
-   python -m venv env
-   source ./env/Scripts/activate
-   ```
+      ```sh
+      python -m venv env
+      source ./env/Scripts/activate
+      ```
 
 3.  **Make sure you are in *Placement-Salary-Prediction* folder**
 
@@ -39,6 +39,8 @@ Django Web-App for Campus Placement Salary Prediction
     ```
 
 And you are good to go!!!
+
+[Go to website](https://checkyourplacementstatus.herokuapp.com/) already deployed on heroku . . . 
 
 In your web browser enter the address : http://localhost:8000 or http://127.0.0.1:8000/ to view website locally.
 
