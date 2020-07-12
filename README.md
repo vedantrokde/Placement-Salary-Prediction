@@ -1,4 +1,6 @@
 # Placement-Salary-Prediction
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/vedantrokde/Placement-Salary-Prediction.git)
+
 `Django` Web-App for Campus Placement Salary Prediction
 
 ## How to run this project
@@ -9,7 +11,7 @@
 git clone https://github.com/vedantrokde/Placement-Salary-Prediction.git
 ```
 
-2.  **Create a virtual-env using venv*
+2.  **Create a virtual-env using venv**
 
 ```sh
 python -m venv env
@@ -37,8 +39,5 @@ source ./env/Scripts/activate
     python manage.py runserver 
     ```
 
- And you are good to go!!!
+And you are good to go!!!
 In your web browser enter the address : http://localhost:8000 or http://127.0.0.1:8000/
-
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/vedantrokde/Placement-Salary-Prediction.git)
