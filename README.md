@@ -9,7 +9,7 @@
 
 2. **Run [save_model.py](https://github.com/vedantrokde/Placement-Salary-Prediction/save_model.py) :** `python save_model.py`
 
-3. **Save pickel files created in */Placement-Salary-Prediction/myapp/models/***
+3. **Save created pickel models in */Placement-Salary-Prediction/myapp/models/***
 
 ## To run this project
 
