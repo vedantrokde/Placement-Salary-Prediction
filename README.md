@@ -1,7 +1,5 @@
 # Placement-Salary-Prediction
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/vedantrokde/Placement-Salary-Prediction.git)
-
 Django Web-App for Campus Placement Salary Prediction
 
 ## To run this project
@@ -52,3 +50,5 @@ In your web browser enter the address : http://localhost:8000 or http://127.0.0.
 
 3. **Save created pickel models in ***/Placement-Salary-Prediction/myapp/models/*.
 
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/vedantrokde/Placement-Salary-Prediction.git)
