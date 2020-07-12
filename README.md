@@ -52,6 +52,6 @@ In your web browser enter the address : http://localhost:8000 or http://127.0.0.
 
 2. **Run [save_model](https://github.com/vedantrokde/Placement-Salary-Prediction/save_model.py) :** `python save_model.py`
 
-3. **Save created pickel models in ***/Placement-Salary-Prediction/myapp/models/*.
+3. **Save created pickel models in** */Placement-Salary-Prediction/myapp/models/*.
 
 **Refer to [scikit-learn](https://scikit-learn.org/stable/modules/classes.html) for any modification required!**
